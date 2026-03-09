@@ -209,4 +209,5 @@ print(nacionalidades.head(10))
 #6 - Quem tem melhor consistência ao longo da carreira? (mediana dos pontos)
 mediana_pontos = df1.groupby('driverRef')['points'].median().sort_values(ascending=False)
 print("Pilotos mais consistentes (mediana dos pontos):\n")
+
 print(mediana_pontos.head(10))
