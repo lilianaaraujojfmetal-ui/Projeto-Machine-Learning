@@ -1,4 +1,4 @@
-# Autores : 
+# Autores : Liliana, Pedro, David
 
 import pandas as pd
 import streamlit as st
@@ -274,4 +274,5 @@ with tab6:
 
     with col2:
         st.subheader("Tabela")
+
         st.table(pontos_mediana.style.set_properties(**{'text-align': 'center'}))
